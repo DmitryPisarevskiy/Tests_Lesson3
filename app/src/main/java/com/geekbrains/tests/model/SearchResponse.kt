@@ -10,4 +10,5 @@ data class SearchResponse(
     @SerializedName("items")
     @Expose
     val searchResults: List<SearchResult>?
+
 )
